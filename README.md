@@ -16,4 +16,4 @@ Apri `index.html` nel browser oppure pubblica con **GitHub Pages**.
 
 ## Autori
 CNR IMATI Research Group  
-Contatti: [info@imati.cnr.it](mailto:info@imati.cnr.it)
+Contatti: [infoworkshop@ge.imati.cnr.it](mailto:infoworkshop@ge.imati.cnr.it)
