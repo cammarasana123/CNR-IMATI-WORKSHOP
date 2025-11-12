@@ -141,6 +141,85 @@ ul {
   padding-left: 1em;
 }
 
+/* --- Editorial members grid --- */
+.editorial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1em;
+  margin-top: 2em;
+}
+
+.editor-card {
+  background-color: #333;
+  border: 1px solid #555;
+  border-radius: 10px;
+  padding: 1em;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.editor-card:hover {
+  transform: translateY(-4px);
+  background-color: #3a3a3a;
+}
+
+.editor-card h3 {
+  color: #66b2ff;
+  margin-bottom: 0.3em;
+}
+
+.editor-card a {
+  color: #4da6ff;
+  text-decoration: none;
+}
+
+.editor-card a:hover {
+  text-decoration: underline;
+}
+
+/* --- Responsività --- */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 0.5em 1em;
+  }
+
+  .navbar img {
+    margin-bottom: 0.5em;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar a {
+    text-align: left;
+    padding: 10px;
+    border-top: 1px solid #333;
+  }
+
+  .content {
+    padding: 1em;
+  }
+
+  table {
+    width: 100%;
+    font-size: 0.9em;
+    display: block;
+    overflow-x: auto;
+  }
+
+  .schedule .item {
+    grid-template-columns: 60px 1fr;
+  }
+}
+
+
+
 /* --- Footer --- */
 footer {
   background-color: #1f1f1f;
